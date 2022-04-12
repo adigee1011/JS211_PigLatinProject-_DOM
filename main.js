@@ -22,7 +22,7 @@ const pigLatin = (word) => {
   let u = word.indexOf('u');
 if (word.indexOf('a') == 0 || word.indexOf('e') == 0 || word.indexOf('i') == 0  || word.indexOf('o') == 0 || word.indexOf('u') == 0) {
 let new4 = word.toLowerCase().trim() + 'yay';
-  console.log(new4);
+  //console.log(new4);
   return new4;
 }
 
@@ -98,12 +98,12 @@ if (u !== -1) {
 
 let new1 = word.substring(answer).trim();
 let new2 = word.substring(0,answer).trim();
-console.log(new1);
-console.log(new2);
+//console.log(new1);
+//console.log(new2);
 let new3 = new1 + new2 + 'ay';
-console.log(new3);
+//console.log(new3);
 let new5 = new3.toLowerCase().trim();
-console.log(new5);
+//console.log(new5);
 return new5;
 }
 }
