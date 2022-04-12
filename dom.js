@@ -14,6 +14,7 @@ button.addEventListener('click', function (){
     console.log(input);
     let output = document.getElementById("output");
     console.log(output);
+    output.style.border = "1px solid red";
     output.innerText = convertToPigLatin(input);
 })
 
