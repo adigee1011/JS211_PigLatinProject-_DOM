@@ -45,8 +45,8 @@ if (a !== -1) {
   }
 }
 
-console.log(a);
-console.log('answer is ', answer);
+//console.log(a);
+//console.log('answer is ', answer);
 
 if (e !== -1) {
   if (answer == -1) {
@@ -57,8 +57,8 @@ if (e !== -1) {
   }
 }
 
-console.log(e);
-console.log('answer is ', answer);
+//console.log(e);
+//console.log('answer is ', answer);
 
 if (i !== -1) {
   if (answer == -1) {
@@ -69,8 +69,8 @@ if (i !== -1) {
   }
 }
 
-console.log(i);
-console.log('answer is ', answer);
+//console.log(i);
+//console.log('answer is ', answer);
 
 if (o !== -1) {
   if (answer == -1) {
@@ -81,8 +81,8 @@ if (o !== -1) {
   }
 }
 
-console.log(o);
-console.log('answer is ', answer);
+//console.log(o);
+//console.log('answer is ', answer);
 
 if (u !== -1) {
   if (answer == -1) {
@@ -93,8 +93,8 @@ if (u !== -1) {
   }
 }
 
-console.log(u);
-console.log('answer is ', answer);
+//console.log(u);
+//console.log('answer is ', answer);
 
 let new1 = word.substring(answer).trim();
 let new2 = word.substring(0,answer).trim();
