@@ -11,6 +11,7 @@ const rl = readline.createInterface({
 });
 
 
+
 const pigLatin = (word) => {
 
   // Your code here
